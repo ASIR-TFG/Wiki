@@ -15,5 +15,5 @@ jobs:
       uses: pozil/auto-assign-issue@v1
       with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          assignees: json-bond007
-          numOfAssignee: 1
+          assignees: json-bond007,mrmanev
+          numOfAssignee: 2
